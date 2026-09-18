@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Atv04-WEB/style.css" />
+    <script src="../Atv04-WEB/script.js" defer></script>
+    <title>StayEasy</title>
+  </head>
+  <body>
+    <div class="secao">
+      <div class="secao-formulario">
+        <form id="formReserva">
+          <div class="campo-grupo">
+            <label for="nome">Nome completo:</label>
+            <input type="text" name="nome" id="nome" class="campo" placeholder="José da Silva" required>
+            <div id="erroNome" class="oculto"></div>
+          </div>
+
+          <div class="campo-grupo">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="campo" placeholder="Ex: abc@gmail.com" required>
+            <div id="erroEmail" class="oculto"></div>
+          </div>
+
+          <div class="campo-grupo">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" class="campo" placeholder="Ex: 11991234567" required>
+            <div id="erroTelefone" class="oculto"></div>
+          </div>
+
+          <div class="campo-grupo">
+            <label for="data-nasc">Data de Nascimento:</label>
+            <input type="date" name="data-nasc" id="data-nasc" class="campo" required>
+            <div id="erroDataNasc" class="oculto"></div>
+          </div>
+
+          <div class="campo-grupo">
+            <label for="data-CI">Data de check-in</label>
+            <input type="date" name="data-CI" id="data-CI" class="campo" required>
+            <div id="erroDataCI" class="oculto"></div>
+          </div>
+
+          <div class="campo-grupo">
+            <label for="data-CO">Data de check-out</label>
+            <input type="date" name="data-CO" id="data-CO" class="campo" required>
+            <div id="erroDataCO" class="oculto"></div>
+          </div>
+
+          <div class="campo-grupo">
+            <label for="qtd-hospedes">Quantidade de hóspedes</label>
+            <input type="number" name="qtd-hospedes" id="qtd-hospedes" class="campo" required>
+            <div id="erroQtdHosp" class="oculto"></div>
+          </div>
+
+          <div class="campo-grupo">
+            <label for="quarto">Tipo de quarto</label>
+            <select name="quarto" id="quarto" class="campo" required>
+              <option value="">Selecione</option>
+              <option value="individual">Quarto Individual</option>
+              <option value="duplo">Quarto Duplo</option>
+              <option value="familia">Quarto Família</option>
+            </select>
+            <div id="erroQuarto" class="oculto"></div>
+          </div>
+
+          <div class="campo-grupo">
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" class="campo" required>
+            <div id="erroSenha" class="oculto"></div>
+          </div>
+
+          <div class="campo-grupo">
+            <label for="confirmacaoSenha">Confirme sua senha:</label>
+            <input type="password" name="confirmacaoSenha" id="confirmacaoSenha" class="campo" required>
+            <div id="erroConfimarcaoSenha" class="oculto"></div>
+          </div>
+
+          <div class="campo-grupo-full">
+            <label for="check">Declaro que li e aceito as condições de reserca</label>
+            <input type="checkbox" name="check" id="check" class="checkbox" required>
+            <div id="erroCheck" class="oculto"></div>
+          </div>
+
+          <button type="submit">
+            Solicitar Reserva
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

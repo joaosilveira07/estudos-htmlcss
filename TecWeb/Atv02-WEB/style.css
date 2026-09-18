@@ -1,0 +1,132 @@
+header {
+  background-color: #3a506b;
+  color: white;
+}
+
+.inicio {
+  text-align: center;
+  color: rgb(6, 154, 252);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sobre {
+  text-align: center;
+  color: rgb(6, 154, 252);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contato {
+  text-align: center;
+  color: rgb(6, 154, 252);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cabecalho {
+  text-align: center;
+  font-style: oblique;
+}
+
+.titulo-destaque {
+  color: rgb(6, 154, 252);
+  border: 5px double;
+  padding: 5px;
+  background-color: rgb(236, 236, 236);
+}
+
+.competencias {
+  text-align: center;
+  border: 2px outset;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 160%;
+}
+
+.competencias th {
+  border-style: groove;
+  border-width: 2px;
+}
+
+.competencias td {
+  border-style: dashed;
+  border-width: 1px;
+}
+
+.projetos {
+  text-align: center;
+  border: 2px outset;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 160%;
+}
+
+.projetos th {
+  border-style: groove;
+  border-width: 2px;
+}
+
+.projetos td {
+  border-style: dashed;
+  border-width: 1px;
+}
+
+.formacao {
+  text-align: center;
+  border: 2px outset;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 160%;
+}
+
+.formacao th {
+  border-style: groove;
+  border-width: 2px;
+}
+
+.formacao td {
+  border-style: dashed;
+  border-width: 1px;
+}
+
+.titulo-table {
+  color: rgb(6, 154, 252);
+}
+
+.subtitulo {
+  color: rgb(76, 255, 255);
+}
+
+.conteudo-inicio {
+  text-align: center;
+  font-size: large;
+  line-height: 30px;
+}
+
+.direitos {
+  text-align: center;
+}
+
+body {
+  color: white;
+  background-color: #1c2541;
+}
+
+footer {
+  background-color: #3a506b;
+  color: white;
+}
+
+img {
+  width: 170px;
+}
+
+a {
+  color: rgb(132, 0, 255);
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: disc;
+}

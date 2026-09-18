@@ -1,0 +1,110 @@
+body {
+    background-color: #25283D;
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secao {
+    padding: 50px;
+
+    width: 95%;
+    max-width: 1000px;
+
+    border: 1px solid #DFE0DC;
+    border-radius: 12px;
+
+    background-color: #DFE0DC;
+}
+
+.secao-formulario {
+    display: flex;
+    justify-content: center;
+}
+
+#formReserva {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.campo-grupo {
+    width: 45%;
+    margin-bottom: 25px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.campo-grupo-full {
+    width: 100%;
+    margin-bottom: 25px;
+
+    display: flex;
+    align-items: center;
+}
+
+#formReserva label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #25283D;
+    margin-bottom: 8px;
+}
+
+#formReserva .campo {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    border: 1px solid #5f6d97;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#formReserva .campo:focus {
+    outline: none;
+    border-color: #25283D;
+}
+
+#formReserva .checkbox {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#formReserva button {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    font-size: 1.2rem;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #5f6d97;
+    color: white;
+
+    cursor: pointer;
+}
+
+#formReserva button:hover {
+    background-color: #4a5680;
+}
+
+@media (max-width: 768px) {
+    .secao {
+        padding: 25px;
+    }
+
+    .campo-grupo {
+        width: 100%;
+    }
+}

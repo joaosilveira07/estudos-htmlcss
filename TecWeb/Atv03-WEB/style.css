@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  margin: 0;
+}
+
+.cabecalho {
+  display: flex;
+  background-color: #1f4e79;
+  color: white;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.cabecalho a {
+  color: white;
+  margin: 2px;
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0px;
+}
+
+.menu {
+  margin-top: 8px;
+}
+
+.apresentacao {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 20px;
+}
+
+.apresentacao-texto h2 {
+  color: #1f4e79;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+.botao {
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  background-color: #1f4e79;
+  padding: 10px;
+}
+
+.destaque {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 130px;
+  background-color: #2c7faf2a;
+  border: 1px solid #3871b3;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.numero {
+  color: #1f4e79;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.secao-cursos {
+  background-color: #eaf2f8;
+  height: 580px;
+}
+
+.secao-cursos h2 {
+  text-align: center;
+  color: #1f4e79;
+  padding: 20px;
+}
+
+.cursos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.curso {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  background-color: white;
+  padding: 15px;
+  height: 200px;
+  width: 220px;
+}
+
+.curso h3 {
+  color: #1f4e79;
+  font-size: larger;
+}
+
+.carga-horaria {
+  color: green;
+  font-weight: bold;
+  padding: 3px;
+}
+
+.botao-curso {
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  background-color: #1f4e79;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  background-color: black;
+  color: white;
+}
