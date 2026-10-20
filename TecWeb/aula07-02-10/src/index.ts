@@ -9,7 +9,7 @@ type SituacaoAluno = "Ativo" | "Formado" | "Inativo" | "Trancado";
 interface Aluno {
     ra: number;
     nome: string;
-    email: string,
+    email: string;
     curso: CursoAluno;
     semestre: number;
     situacao: SituacaoAluno;
